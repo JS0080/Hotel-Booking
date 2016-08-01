@@ -1,0 +1,47 @@
+username =    root
+ip address: 98.158.184.156
+root password: 1jyT382PWzYP
+
+IP: 98.158.184.156
+user: upwork
+pass: upwork123!
+pexportal.com
+
+
+http://wandr.me/scripts/Hustle/HustleAirportLookup.ashx
+http://wandr.me/scripts/Hustle/HustleAirportLookup.ashx?term=Miami
+http://wandr.me/scripts/Hustle/HustleAirportLookup.ashx?term=anshan
+
+http://wandr.me/scripts/hustle/insideflyer.ashx?term=
+http://wandr.me/scripts/hustle/insideflyer.ashx?term=syd
+http://wandr.me/scripts/hustle/insideflyer.ashx?term=Anshan,%20China
+
+http://wandr.me/scripts/hustle/pex.ashx?term=cdg&i=2016-08-12&o=2016-08-14
+
+key: GniPib2v9mca6jTnsJS4QvQ3Zf2CKHrVM86HCbQ3
+
+http://developer.factual.com/v3-v4-transition/
+http://developer.factual.com/api-docs/
+
+https://www.factual.com/data/t/hotels-us#filters={"$and":[{"locality":{"$eq":"key+west"}},{"rating":{"$eq":"4.5"}}]}
+https://www.factual.com/data/t/places#filters={"$and":[{"country":{"$eq":"AU"}}]}&q=hotels
+https://www.factual.com/data/t/places#filters={%22$and%22:[{%22country%22:{%22$eq%22:%22AU%22}},{%22region%22:{%22$eq%22:%22QLD%22}}]}&q=hotels
+
+https://api.factual.com/t/places?filters={%22$and%22:[{%22country%22:{%22$eq%22:%22AU%22}}]}&q=hotels&KEY=GniPib2v9mca6jTnsJS4QvQ3Zf2CKHrVM86HCbQ3
+
+https://api.factual.com/t/hotels-us?filters={"$and":[{"locality":{"$eq":"key+west"}}]}&KEY=GniPib2v9mca6jTnsJS4QvQ3Zf2CKHrVM86HCbQ3
+
+{"version":3,"status":"ok","response":{"data":[],"included_rows":0}}
+
+
+&KEY=GniPib2v9mca6jTnsJS4QvQ3Zf2CKHrVM86HCbQ3
+
+
+[9:32:48 PM] Jessica: ihg = IHG Rewards Club
+spg = Starwood Preferred Guest
+hh = Hilton HHonors
+cr = Choice Privileges
+cc = Club Carlson
+mr = Marriott Rewards
+[9:33:06 PM] Jessica: You don't need the * in each name
+[9:33:39 PM] Jessica: I think hy = Hyatt Gold Passport

@@ -1,0 +1,348 @@
+{% extends "base.html" %}
+{% load staticfiles %} 
+
+{% block content %}
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+
+<div class="container-result">
+	<div class="row">
+	<div class="col-md-2">
+		<div class="mvb10px nopadding filters-holder">
+			<div class="col-xs-12 nopadding visible-xs form-side">
+				<p class="pull-left">
+					Filters
+				</p>
+				<p class="pull-right show-filter" id="id_filter_collapse">
+					<span class="glyphicon glyphicon-th-large"></span>
+				</p>
+			</div>	
+			<form id="filter_form">
+	<!--         <div class="filter-lane">
+				<label>Number of Stars</label>
+				<div><input type="checkbox"> <span class="stars">5</span></label> </div>
+				<div><input type="checkbox"> <span class="stars">4</span></input> </div>
+				<div><input type="checkbox"> <span class="stars">3</span></input> </div>
+				<div><input type="checkbox"> <span class="stars">2</span></input> </div>
+				<div><input type="checkbox"> <span class="stars">1</span></input> </div>
+			</div> -->
+				<div class="filter-lane">
+					<label>Hotel Chains</label>
+					<div><input type="checkbox" name="hotel_chain" value="ihg" {% if 'ihg' in filters.5 %} checked="true" {% endif %}> IHG Rewards Club </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="spg" {% if 'spg' in filters.5 %} checked="true" {% endif %} > Starwood Preferred Guest </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="hh" {% if 'hh' in filters.5 %} checked="true" {% endif %}> Hilton HHonors </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="cp" {% if 'cp' in filters.5 %} checked="true" {% endif %}> Choice Privileges </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="cc" {% if 'cc' in filters.5 %} checked="true" {% endif %}> Club Carlson </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="mr" {% if 'mr' in filters.5 %} checked="true" {% endif %}> Marriott Rewards </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="hy" {% if 'hy' in filters.5 %} checked="true" {% endif %}> Hyatt Gold Passport </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="ac" {% if 'ac' in filters.5 %} checked="true" {% endif %}> Le Club Accor </input> </div>
+					<div><input type="checkbox" name="hotel_chain" value="wy" {% if 'wy' in filters.5 %} checked="true" {% endif %}> Wyndham Rewards </input> </div>
+				</div>
+			</form>
+
+			<div class="filter-lane">
+				<label>Price</label>
+				<div class="slider-range">
+					<span id="dis_price_low">${{ filters.0 }}</span>
+					<span style="float:right;" id="dis_price_high">${{ filters.1 }}</span>
+				</div>
+				<div id="price-range" class="filter-slider"></div>
+			</div>        
+			<div class="filter-lane">
+				<label>Award Price</label>
+				<div class="slider-range">
+					<span id="dis_award_low">{{ filters.2 }}</span>
+					<span style="float:right;" id="dis_award_high">{{ filters.3 }}</span>
+				</div>
+				<div id="award-range" class="filter-slider"></div>
+			</div>        
+
+			<div class="filter-lane">
+				<label>Location</label>
+				<div>
+				<select name='radius' class="form-control" id="id_radius">
+					<option value="1000">Radius</option>
+					<option value="5" {% if filters.4 == 5 %}selected="true"{% endif %}>5 Miles</option>
+					<option value="10" {% if filters.4 == 10 %}selected="true"{% endif %}>10 Miles</option>
+					<option value="15" {% if filters.4 == 15 %}selected="true"{% endif %}>15 Miles</option>
+					<option value="30" {% if filters.4 == 30 %}selected="true"{% endif %}>30 Miles</option>
+					<option value="100" {% if filters.4 == 100 %}selected="true"{% endif %}>50+ Miles</option>
+				</select>
+				</div>
+			</div>     
+
+			<button class="btn btn-default filter-submit" onclick="filter_submit();">Filter</button>
+		</div>
+	</div>
+	<div class="col-md-8">    
+		{% if form.errors %}
+			<div class="well"  style="border-color: red;">
+				{{form.errors}}
+			</div>
+		{% endif %}
+			<div class="col-xs-12 nopaddig visible-xs form-side">
+				<p class="pull-left">
+					Hotel Search
+				</p>
+				<p class="pull-right hotel-search-show">
+					<span class="glyphicon glyphicon-search"></span>
+				</p>
+			</div>
+			<div class="row hotel-search-panel mvb10px  xs-collapse">
+			<form class="form-horizontal" role="form" action="/search_hotel/" method="post" id="search-form">
+				{% csrf_token %}
+				  <div class="col-sm-3 col-xs-12 xs-nopadding">     
+					<div class="form-group nomr noml">
+					  {{ form.place }}
+					</div>
+				  </div>
+				  <div class="col-sm-2 col-xs-6 nopl xs-pr5 mobile-wt">
+					<div class="form-group nomr noml nomb no-margin-md-form inner-addon left-addon date">
+					  <i class="glyphicon glyphicon-calendar"></i>
+					  {{ form.checkin }}
+					</div>
+				  </div>
+				  <div class="col-sm-2 col-xs-6 xs-nopadding xs-pl5 pd-le-md" id="return">
+					<div class="form-group nomr noml inner-addon left-addon date">
+					  <i class="glyphicon glyphicon-calendar"></i>
+					  {{ form.checkout }}
+					</div>
+				  </div>        
+		          <div class="col-sm-2 col-xs-6 " tabindex="4" style="padding: 0 3px;">
+		            <div class="form-group no-margin"  id="cabintab">
+		                <select name='rooms' class="form-control c_caret" required="true">
+		                    <option value="1">1 Guest</option>
+		                    <option value="2">2 Guests</option>
+		                    <option value="3">3 Guests</option>
+		                    <option value="4">4 Guests</option>
+		                    <option value="5">5 Guests</option>                        
+		                </select>                    
+		            </div>                          
+		          </div>          
+		          <div class="col-sm-2 col-xs-6 " tabindex="5" style="padding: 0 3px;">
+		            <div class="form-group no-margin"  id="cabintab">
+		                <select name='guests' class="form-control  c_caret" required="true">
+		                    <option value="1">1 Room</option>
+		                    <option value="2">2 Rooms</option>
+		                    <option value="3">3 Rooms</option>
+		                    <option value="4">4 Rooms</option>
+		                    <option value="5">5 Rooms</option>                        
+		                </select>   
+		            </div>                          
+		          </div>
+
+				  <div class="col-sm-1 col-xs-12">
+					<button type="button" onclick="search_hotel();" class="form_val btn btn-pexSearch" id="submitid" tabindex="6">Search</button>
+				  </div>      
+				  <input type="hidden" id="id_price_low" name="price_low" value="{{ filters.0 }}">    
+				  <input type="hidden" id="id_price_high" name="price_high" value="{{ filters.1 }}">    
+				  <input type="hidden" id="id_award_low" name="award_low" value="{{ filters.2 }}">    
+				  <input type="hidden" id="id_award_high" name="award_high" value="{{ filters.3 }}">    
+				  <input type="hidden" id="id_real_radius" name="radius" value="{{ filters.4 }}">    
+				  <input type="hidden" id="id_chain" name="chain" value="">    
+			</form>     
+			</div>
+		<div class="row">
+			<a href="#" onclick="$('#id_price_matrix').toggle();" style="margin: 0 15px;">View Price Matrix</a>
+			<a href="#" onclick="$('#map').toggle();">View Map</a>
+		</div>	
+		<div class="row"><div class="col-md-12">
+		<div class="well custom-well text-center" id="id_price_matrix" style="display: none;">
+			<section id="">
+				<div class="table-responsive" id="price_matrix">
+				<table class="table div-table" id="pricematrix" cellspacing="2">
+					<tbody>
+					<tr class="div-table-row row">
+						<th class="bc-whi left-heading"></th>
+						<th class="bc-whi">Cash</th>
+						<th class="bc-whi">Points</th>
+					</tr>
+					{% for key, values in price_matrix.items %}
+					<tr class="div-table-row row">
+						<td class="bc-whi left-heading"> {{ values.title }}</td>
+						<td class="color-grey-1">{% if values.cashRate == 100000000 %}-{% else %} ${{ values.cashRate }} {% endif %}</td>
+						<td class="color-grey-1">{% if values.pointsRate == 100000000 %}-{% else %} {{ values.pointsRate }} {% endif %}</td>
+					</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+				</div>
+			</section>
+		</div>        
+		</div></div>
+		<div class="row"><div class="col-md-12">
+			<div id="map"></div>
+		</div></div>
+
+		{% for hotel in hotels %}
+		<div class="row" style="margin-top: 15px;">
+			<div class="col-sm-3 col-xs-7">
+				<a href="{{ hotel.url }}" style="text-decoration: none;">
+				<div class="price-range">
+					<p class="title">Book With Points</p>
+					{% if hotel.pointsRate and hotel.pointsRate != "N/A" %}
+						<p style="margin: 0;">Points Rate: <span>{{ hotel.pointsRate }}</span></p>
+					{% else %}
+						<p style="margin: 0;">Click to view rates</p>
+					{% endif %}
+				</div></a>
+				<div style="margin-left: 62px;"><b> OR </b></div>
+				<a href="{{ hotel.url }}" style="text-decoration: none;">
+				<div class="price-range">
+					<p class="title">Book With Dollars</p>
+					{% if hotel.cashRate and hotel.cashRate != 'N/A' %}
+						<p style="margin: 0;">Cash Rate: <span>${{ hotel.cashRate }}</span></p>
+					{% else %}
+						<p style="margin: 0;">Click to view rates</p>
+					{% endif %}
+				</div></a>             
+			</div>
+			<div class="col-sm-3 col-xs-5">
+				<a href="{{ hotel.url }}"><h4> {{ hotel.name }} </h4></a>
+				<!-- <span class="stars">3</span> -->
+				<a href="#" data-toggle="modal" class="share" data-target="#share-modal">share</a>
+			</div>
+			<div class="col-sm-3 wide">
+				{% if hotel.img %}
+					<img src="{{ hotel.img }}" class="img-hotel">
+				{% else %}
+					<img src="/static/img/hotels.jpg" class="img-hotel">
+				{% endif %}
+			</div>
+			<div class="col-sm-3 wide">
+				<div id="map{{ forloop.counter }}" style="height:125px;"></div>
+			</div>
+		</div><hr>
+		{% endfor %}
+	</div>
+	</div>
+</div>
+	<!-- Modal -->
+	<div class="modal fade" id="share-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div style="height: 100%;" class="modal-backdrop fade in"></div>
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div class="modal-body">
+					<div>
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active">
+								<a href="#facebook" aria-controls="facebook" role="tab" data-toggle="tab">Facebook</a>
+							</li>
+							<li role="presentation">
+								<a href="#twitter" aria-controls="twitter" role="tab" data-toggle="tab">Twitter</a>
+							</li>
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="facebook">
+								<form class="mvt10px mvb10px" action="#" methos="post">
+									<div class="media">
+										<div class="media-left">
+											<a href="#"> <img class="media-object" src="{% static 'flightsearch/img/headshot_whitebg.png' %}" alt=""> </a>
+										</div>
+										<div class="media-body">
+											<div class="col-xs-12 nopadding">
+												<div class="col-xs-4 nopadding">
+													<a href="#"> <img class="media-object fb-share-img" src="{% static 'flightsearch/img/logoMain.png' %}" alt=""> </a>
+												</div>
+
+												<div class="col-xs-8">
+													<h4 class="media-heading" id="fbtitle">{{form.place.value}} for ${{filters.0}}/night</h4>
+													<p>
+														Need a place to stay in {{ form.place.value }}? I found a great deal for a hotel there on PEX+.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="form-group mvt10px">
+										<a href="https://www.facebook.com/sharer/sharer.php?u=http://pexportal.com//search_hotel/?place={{form.place.value}}"  id="social_share"> <span class="btn btn-pexSearch filter-serch-btn">Post</span> </a>
+									</div>
+								</form>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="twitter">
+								<form class="mvt10px mvb10px">
+									<div class="form-group">
+										<label>Tweet about this</label>
+										<textarea id="twitter_content" rows="2" class="form-control" placeholder="Enter your tweet">Need a place to stay in %23{{filters.10}}? Found a great deal for a %23hotel on @PEXPlus! ${{filters.0}}/night </textarea>
+									</div>
+									<div class="form-group">
+										<a href="http://pexportal.com/search_hotel/?place={{form.place.value|urlencode}}%26checkin={{form.checkin.value}}%26checkout={{form.checkout.value}}" id="twitter_share"> <span class="btn btn-pexSearch filter-serch-btn">Tweet</span> </a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script> 
+var price_low = {{filters.0}};
+var price_high = {{filters.1}};
+var award_low = {{filters.2}};
+var award_high = {{filters.3}};
+var price_lowest = {{filters.6}};
+var price_highest = {{filters.7}};
+var award_lowest = {{filters.8}};
+var award_highest = {{filters.9}};
+
+$(document).ready(function() {
+	$('span.stars').stars();
+
+	{% for hotel in hotels %}
+		{% if hotel.lat and hotel.lon %}
+			var latlng_main = new google.maps.LatLng({{ hotel.lat }}, {{ hotel.lon }});
+		{% endif %}
+	{% endfor %}
+	var mapOptions_main = {
+		zoom: 9,
+		center: latlng_main,
+		mapTypeControl: false,
+	};
+	var map_main = new google.maps.Map($('#map')[0], mapOptions_main);
+
+	{% for hotel in hotels %}
+		{% if hotel.lat and hotel.lon and forloop.counter < 30 %}
+			var latlng{{ forloop.counter }} = new google.maps.LatLng({{ hotel.lat }} {{ hotel.latitude }}, {{ hotel.lon }} {{ hotel.longitude }});
+			var mapOptions{{ forloop.counter }} = {
+				zoom: 13,
+				center: latlng{{ forloop.counter }},
+				mapTypeControl: false,
+			};
+			map{{ forloop.counter }} = new google.maps.Map($('#map{{ forloop.counter }}')[0], mapOptions{{ forloop.counter }});
+
+			new google.maps.Marker({
+				position: latlng{{ forloop.counter }},
+				map: map{{ forloop.counter }},
+			});
+
+			new google.maps.Marker({
+				position: latlng{{ forloop.counter }},
+				map: map_main,
+			});            
+		{% endif %}
+	{% endfor %}
+
+	if ($(window).width() < 768) {
+		$(".filters-holder").addClass('filters-holder-ht');
+		$("#id_filter_collapse").click(function() {
+			console.log('@@@@@@@@@');
+			$(this).parent().parent().toggleClass('filters-holder-ht');
+		});
+
+		$('.hotel-search-show').click(function(){
+			$('.hotel-search-panel').toggleClass('in');
+		});
+	}	
+
+	// $('#map').hide();
+});
+</script>           
+{% endblock %}      

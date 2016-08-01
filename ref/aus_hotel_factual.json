@@ -1,0 +1,1305 @@
+{
+   "version" : 3,
+   "response" : {
+      "data" : [
+         {
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "region" : "SA",
+            "tel" : "13 24 00",
+            "hours_display" : "Mon-Fri 9:00-17:00",
+            "factual_id" : "2827820d-5103-4fc1-8c1e-de6397eccbd5",
+            "address" : "626 Anzac Hwy",
+            "name" : "Choice Hotels Australasia",
+            "category_ids" : [
+               436
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "country" : "au",
+            "longitude" : 138.524957,
+            "latitude" : -34.976549,
+            "postcode" : "5045",
+            "locality" : "Glenelg"
+         },
+         {
+            "country" : "au",
+            "latitude" : -34.120287,
+            "hours_display" : "Mon-Tue 8:00-16:00; Wed 8:00-16:30; Thu-Sat 8:00-16:00; Sun 16:00-18:00",
+            "category_ids" : [
+               167
+            ],
+            "website" : "http://www.hanrob.com.au",
+            "region" : "NSW",
+            "tel" : "(02) 8508 3222",
+            "postcode" : "2233",
+            "locality" : "Heathcote",
+            "fax" : "(02) 8508 3255",
+            "longitude" : 150.992028,
+            "factual_id" : "f08d5ff3-4a93-4726-ac66-e29d53b52a41",
+            "address" : "1800 Princes Hwy",
+            "name" : "Hanrob Pet Hotels",
+            "category_labels" : [
+               [
+                  "Retail",
+                  "Pets"
+               ]
+            ],
+            "hours" : {
+               "thursday" : [
+                  [
+                     "8:00",
+                     "16:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:00",
+                     "16:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "8:00",
+                     "16:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:00",
+                     "16:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "8:00",
+                     "16:30"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "8:00",
+                     "16:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "16:00",
+                     "18:00"
+                  ]
+               ]
+            }
+         },
+         {
+            "hours_display" : "Mon-Fri 8:30-17:00",
+            "category_ids" : [
+               293
+            ],
+            "website" : "http://www.joneslanglasalle.com.au/",
+            "address_extended" : "Level 33",
+            "region" : "QLD",
+            "tel" : "(07) 3231 1311",
+            "country" : "au",
+            "latitude" : -27.466936,
+            "address" : "345 Queen St",
+            "factual_id" : "4a48aa8a-3e6f-412c-be32-39c2af87e866",
+            "category_labels" : [
+               [
+                  "Businesses and Services",
+                  "Real Estate",
+                  "Real Estate Agents"
+               ]
+            ],
+            "name" : "Jones Lang Lasalle Hotels",
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ]
+            },
+            "neighborhood" : [
+               "Spring Hill",
+               "Brisbane Central",
+               "Riverside Centre"
+            ],
+            "postcode" : "4000",
+            "locality" : "Brisbane",
+            "longitude" : 153.029098
+         },
+         {
+            "country" : "au",
+            "latitude" : -26.65244,
+            "category_ids" : [
+               274
+            ],
+            "hours_display" : "Mon-Fri 8:30-17:00",
+            "tel" : "(07) 5479 6922",
+            "website" : "http://www.oakshotelsresorts.com",
+            "region" : "QLD",
+            "address_extended" : "Level 5",
+            "po_box" : "POBox 473",
+            "locality" : "Maroochydore",
+            "postcode" : "4558",
+            "longitude" : 153.092937,
+            "fax" : "(07) 5479 6933",
+            "name" : "Oaks Hotels & Resorts",
+            "category_labels" : [
+               [
+                  "Businesses and Services",
+                  "Management"
+               ]
+            ],
+            "address" : "26 Duporth Ave",
+            "factual_id" : "12eaf183-4367-4f82-88d0-ae943bbb767a",
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:30",
+                     "17:00"
+                  ]
+               ]
+            }
+         },
+         {
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "7:00",
+                     "23:00"
+                  ]
+               ]
+            },
+            "address" : "27-29 Claremont St",
+            "factual_id" : "1ddee48c-ca1e-4832-9990-a28f6f7bd8bd",
+            "name" : "Amity Apartment Hotels",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "fax" : "(03) 8825 3799",
+            "longitude" : 144.993737,
+            "postcode" : "3141",
+            "locality" : "South Yarra",
+            "website" : "http://www.amitysouthyarra.com.au/",
+            "region" : "VIC",
+            "tel" : "(03) 8825 3700",
+            "hours_display" : "Open Daily 7:00-23:00",
+            "category_ids" : [
+               436
+            ],
+            "country" : "au",
+            "latitude" : -37.837141
+         },
+         {
+            "longitude" : 145.12022,
+            "country" : "au",
+            "latitude" : -37.850915,
+            "locality" : "Burwood",
+            "postcode" : "3125",
+            "tel" : "1300 731 299",
+            "website" : "http://www.punthill.com.au",
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "region" : "VIC",
+            "name" : "Punthill Apartment Hotels",
+            "category_ids" : [
+               436
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "address" : "300 Burwood Hwy",
+            "hours_display" : "Open Daily 9:00-17:00",
+            "factual_id" : "2e5f340f-46f0-4327-9df3-38ff8106e453"
+         },
+         {
+            "longitude" : 145.119444,
+            "locality" : "Clayton",
+            "neighborhood" : [
+               "Notting Hill"
+            ],
+            "postcode" : "3168",
+            "hours" : {
+               "tuesday" : [
+                  [
+                     "9:30",
+                     "18:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:30",
+                     "18:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:30",
+                     "18:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:30",
+                     "18:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:30",
+                     "13:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "9:30",
+                     "18:00"
+                  ]
+               ]
+            },
+            "name" : "India Flight, Hotels & cab",
+            "category_labels" : [
+               [
+                  "Travel"
+               ]
+            ],
+            "address" : "333 Clayton Rd",
+            "factual_id" : "b5d698e8-047c-45f8-bbff-7fa6d0f85234",
+            "latitude" : -37.924881,
+            "country" : "au",
+            "tel" : "(03) 9544 4891",
+            "address_extended" : "Suite 1",
+            "region" : "VIC",
+            "website" : "http://www.indiatravels.com.au/",
+            "category_ids" : [
+               430
+            ],
+            "hours_display" : "Mon-Fri 9:30-18:00; Sat 9:30-13:00"
+         },
+         {
+            "hours_display" : "Mon 12:00-19:00; Tue 11:00-13:00; Wed 16:00-20:00; Thu 11:00-20:00; Fri 14:00-22:00; Sat 12:00-13:00; Sun 15:00-22:00",
+            "email" : "info@oscarssportshotel.com.au",
+            "category_ids" : [
+               436
+            ],
+            "region" : "NSW",
+            "address_extended" : "#307",
+            "website" : "http://www.oscarshotels.com.au",
+            "tel" : "(02) 9707 2458",
+            "latitude" : -33.919348,
+            "country" : "au",
+            "address" : "311 Chapel Rd",
+            "factual_id" : "912dc752-52fd-4213-b7ca-93400b75334b",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Oscars Hotels",
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "16:00",
+                     "20:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "12:00",
+                     "13:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "15:00",
+                     "22:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "11:00",
+                     "20:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "11:00",
+                     "13:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "14:00",
+                     "22:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "12:00",
+                     "19:00"
+                  ]
+               ]
+            },
+            "neighborhood" : [
+               "Bankstown"
+            ],
+            "postcode" : "2200",
+            "locality" : "Bankstown",
+            "longitude" : 151.032014
+         },
+         {
+            "website" : "http://www.travelodge.com.au",
+            "region" : "NSW",
+            "tel" : "(02) 8874 5200",
+            "email" : "macquarie@travelodge.com.au",
+            "hours_display" : "Open Daily 00:00-23:59",
+            "category_ids" : [
+               436
+            ],
+            "country" : "au",
+            "latitude" : -33.771858,
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ]
+            },
+            "address" : "81 Talavera Rd",
+            "factual_id" : "6210d679-3bd5-41ab-8704-73e67b308641",
+            "name" : "Travelodge Hotels",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "longitude" : 151.117138,
+            "neighborhood" : [
+               "Macquarie Centre"
+            ],
+            "postcode" : "2113",
+            "locality" : "North Ryde"
+         },
+         {
+            "postcode" : "3043",
+            "locality" : "Tullamarine",
+            "longitude" : 144.86649,
+            "country" : "au",
+            "latitude" : -37.685317,
+            "factual_id" : "d740d0ce-3d3c-46b1-b0e6-92deba08b071",
+            "hours_display" : "Mon-Fri 6:00-18:00; Sat 9:00-17:00; Sun 10:00-20:00",
+            "address" : "444 Melrose Dr",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Hanrob Pet Hotels",
+            "category_ids" : [
+               436
+            ],
+            "hours" : {
+               "friday" : [
+                  [
+                     "6:00",
+                     "18:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "6:00",
+                     "18:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "6:00",
+                     "18:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "6:00",
+                     "18:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "10:00",
+                     "20:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "6:00",
+                     "18:00"
+                  ]
+               ]
+            },
+            "website" : "http://www.hanrob.com.au/",
+            "region" : "VIC",
+            "tel" : "(03) 9339 2800"
+         },
+         {
+            "longitude" : 138.595122,
+            "neighborhood" : [
+               "Adelaide Central"
+            ],
+            "postcode" : "5000",
+            "locality" : "Adelaide",
+            "hours" : {
+               "thursday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ]
+            },
+            "factual_id" : "e5ff5ce9-504c-45de-82eb-cd9a465caf23",
+            "address" : "141A Gilbert St",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Access Hotels & Commercial",
+            "country" : "au",
+            "latitude" : -34.934648,
+            "website" : "http://www.accesshotels.com.au",
+            "region" : "SA",
+            "address_extended" : "Suite 3, Level 1",
+            "tel" : "(08) 8212 0080",
+            "hours_display" : "Open Daily 00:00-24:00",
+            "category_ids" : [
+               436
+            ]
+         },
+         {
+            "locality" : "Heidelberg",
+            "neighborhood" : [
+               "Heidelberg"
+            ],
+            "postcode" : "3084",
+            "longitude" : 145.067784,
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Premier Hotels Group",
+            "address" : "92 Burgundy St",
+            "factual_id" : "92ff1042-1c4a-4b47-bdc8-ac4414d90edf",
+            "hours" : {
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "country" : "au",
+            "latitude" : -37.756196,
+            "category_ids" : [
+               436
+            ],
+            "hours_display" : "Open Daily 9:00-17:00",
+            "tel" : "(03) 9457 3311",
+            "address_extended" : "Level 1",
+            "region" : "VIC"
+         },
+         {
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "8:30",
+                     "18:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "8:30",
+                     "18:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ]
+            },
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Direct Hotels - Monterey Moranbah",
+            "address" : "15 Bacon St",
+            "factual_id" : "abebe14e-4043-4388-80e1-c834c726815d",
+            "longitude" : 148.042126,
+            "locality" : "Moranbah",
+            "postcode" : "4744",
+            "tel" : "(07) 5409 5786",
+            "region" : "QLD",
+            "website" : "http://www.directhotels.com.au",
+            "category_ids" : [
+               436
+            ],
+            "hours_display" : "Mon-Fri 8:00-19:00; Sat-Sun 8:30-18:00",
+            "email" : "enquiries@directhotels.com.au",
+            "latitude" : -22.001834,
+            "country" : "au"
+         },
+         {
+            "country" : "au",
+            "latitude" : -33.870893,
+            "category_ids" : [
+               436
+            ],
+            "hours_display" : "Open Daily 9:00-17:30",
+            "tel" : "(02) 9261 3199",
+            "address_extended" : "Level M",
+            "region" : "NSW",
+            "locality" : "Sydney",
+            "postcode" : "2000",
+            "neighborhood" : [
+               "Wynard",
+               "St James",
+               "Sydney South"
+            ],
+            "longitude" : 151.207476,
+            "name" : "Rydges Hotels & Resorts",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "address" : "49 Market St",
+            "factual_id" : "00c8b4ce-c407-4eae-918a-87f05cd34816",
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ]
+            }
+         },
+         {
+            "country" : "au",
+            "latitude" : -33.82366,
+            "hours_display" : "Mon-Fri 8:30-17:30",
+            "category_ids" : [
+               436
+            ],
+            "address_extended" : "Level 9",
+            "region" : "NSW",
+            "tel" : "1300 363 300",
+            "postcode" : "2065",
+            "neighborhood" : [
+               "St Leonards"
+            ],
+            "locality" : "St Leonards",
+            "longitude" : 151.196478,
+            "fax" : "(02) 9926 9762",
+            "factual_id" : "5554ff32-d8fb-4a42-a18e-61d2ecd12d25",
+            "address" : "504 Pacific Hwy",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Inter-Continental Hotels & Resorts",
+            "hours" : {
+               "thursday" : [
+                  [
+                     "8:30",
+                     "17:30"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:30",
+                     "17:30"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "8:30",
+                     "17:30"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:30",
+                     "17:30"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "8:30",
+                     "17:30"
+                  ]
+               ]
+            }
+         },
+         {
+            "postcode" : "3152",
+            "locality" : "Wantirna South",
+            "latitude" : -37.869837,
+            "longitude" : 145.234943,
+            "country" : "au",
+            "hours_display" : "Open Daily 9:00-17:00",
+            "address" : "337 Stud Rd",
+            "factual_id" : "db2deee5-3e27-4a0d-a490-166145260403",
+            "category_ids" : [
+               436
+            ],
+            "name" : "Punthill Apartment Hotels",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "region" : "VIC",
+            "website" : "http://www.punthill.com.au/melbourne-accommodation/knox.html",
+            "hours" : {
+               "sunday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "tel" : "1300 478 684"
+         },
+         {
+            "latitude" : -27.872659,
+            "country" : "au",
+            "longitude" : 153.350876,
+            "locality" : "Hope Island",
+            "postcode" : "4212",
+            "tel" : "(07) 5511 5327",
+            "region" : "QLD",
+            "hours" : {
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "website" : "http://www.azzurahotelsresorts.com.au",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Azzura Hotels & Resorts",
+            "category_ids" : [
+               436
+            ],
+            "hours_display" : "Mon-Fri 9:00-17:00",
+            "factual_id" : "2dbe31ba-6548-4290-8aad-6ab151906693",
+            "address" : "2 Activa Way"
+         },
+         {
+            "name" : "Direct Hotels- Villas on Rivergum",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "category_ids" : [
+               436
+            ],
+            "factual_id" : "b4265c7a-d9e4-424d-b207-5d2d1214a9f7",
+            "hours_display" : "Open Daily 00:00-23:59",
+            "address" : "21 Rivergum Dr",
+            "email" : "rivergum@directhotels.com.au",
+            "tel" : "(07) 4987 7080",
+            "region" : "QLD",
+            "hours" : {
+               "monday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "00:00",
+                     "23:59"
+                  ]
+               ]
+            },
+            "locality" : "Emerald",
+            "latitude" : -23.555172,
+            "longitude" : 148.151891,
+            "country" : "au"
+         },
+         {
+            "website" : "http://www.stamford.com.au",
+            "region" : "NSW",
+            "tel" : "(02) 9770 7707",
+            "hours_display" : "Open Daily 9:00-17:30",
+            "category_ids" : [
+               436
+            ],
+            "country" : "au",
+            "latitude" : -33.930692,
+            "hours" : {
+               "sunday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:30"
+                  ]
+               ]
+            },
+            "factual_id" : "395d45cb-b510-4c8e-a4c9-50802281dddf",
+            "address" : "Se 222 L 2 Stanford Plaza Sydney Airport Cnr Robey St And O'Riordan St",
+            "name" : "Stamford Hotels and Resorts",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "longitude" : 151.186595,
+            "fax" : "(02) 9770 7787",
+            "neighborhood" : [
+               "Mascot",
+               "Rosebery"
+            ],
+            "postcode" : "2020",
+            "locality" : "Mascot"
+         },
+         {
+            "tel" : "(08) 9227 9067",
+            "address_extended" : "Suite A",
+            "region" : "WA",
+            "website" : "http://www.designhotels.com",
+            "category_ids" : [
+               436
+            ],
+            "latitude" : -31.940122,
+            "country" : "au",
+            "name" : "Design Hotels Ag",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "address" : "554 Newcastle St",
+            "factual_id" : "8fbd8fa0-b70d-48b0-a65b-40ec4fa2a769",
+            "longitude" : 115.848014,
+            "fax" : "(08) 9228 9580",
+            "locality" : "West Perth",
+            "neighborhood" : [
+               "Northlands",
+               "East Perth",
+               "West Perth"
+            ],
+            "postcode" : "6005"
+         }
+      ],
+      "included_rows" : 20
+   },
+   "status" : "ok"
+}

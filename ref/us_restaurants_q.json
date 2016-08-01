@@ -1,0 +1,969 @@
+{
+   "status" : "ok",
+   "response" : {
+      "included_rows" : 20,
+      "data" : [
+         {
+            "meal_lunch" : true,
+            "name" : "Coffee",
+            "latitude" : 29.894981,
+            "tel" : "(504) 328-9494",
+            "country" : "us",
+            "cuisine" : [
+               "Coffee",
+               "Pastries",
+               "Salad",
+               "Sandwiches",
+               "Soup"
+            ],
+            "groups_goodfor" : true,
+            "reservations" : false,
+            "meal_breakfast" : true,
+            "wifi" : false,
+            "website" : "http://www.coffeeandkingcakes.com",
+            "rating" : 3.5,
+            "postcode" : "70072",
+            "region" : "LA",
+            "address" : "5024 Westbank Expy",
+            "longitude" : -90.100706,
+            "hours" : {
+               "sunday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "00:00",
+                     "24:00"
+                  ]
+               ]
+            },
+            "open_24hrs" : true,
+            "attire" : "casual",
+            "meal_deliver" : true,
+            "factual_id" : "0d7086ed-4f92-4df8-97a4-35012615a6ea",
+            "price" : 1,
+            "accessible_wheelchair" : true,
+            "fax" : "(504) 366-6424",
+            "locality" : "Marrero",
+            "category_ids" : [
+               353,
+               342
+            ],
+            "hours_display" : "Open Daily 12:00 AM-11:59 PM",
+            "payment_cashonly" : false,
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants",
+                  "Delis"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "meal_takeout" : true,
+            "email" : "coffeeand@bellsouth.net"
+         },
+         {
+            "cuisine" : [
+               "Coffee",
+               "Cafe"
+            ],
+            "tel" : "(516) 338-2728",
+            "country" : "us",
+            "name" : "Coffee",
+            "latitude" : 40.758906,
+            "region" : "NY",
+            "website" : "http://corpcofe.com",
+            "postcode" : "11590",
+            "factual_id" : "35e4d534-d9ac-473b-8aa1-307e71acb0f0",
+            "open_24hrs" : false,
+            "meal_deliver" : false,
+            "meal_cater" : true,
+            "address" : "745 Summa Ave",
+            "longitude" : -73.556039,
+            "hours" : {
+               "wednesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "9:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "email" : "info@corpcofe.com",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ]
+            ],
+            "category_ids" : [
+               342,
+               347
+            ],
+            "locality" : "Westbury",
+            "fax" : "(808) 922-0961",
+            "payment_cashonly" : false,
+            "hours_display" : "Mon-Fri 9:00 AM-5:00 PM",
+            "price" : 1
+         },
+         {
+            "open_24hrs" : false,
+            "hours" : {
+               "friday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:00",
+                     "17:00"
+                  ]
+               ]
+            },
+            "address" : "950 Peninsula Corporate Cir",
+            "longitude" : -80.097377,
+            "factual_id" : "260c0bc6-1355-439d-8f52-37bedb45eff5",
+            "hours_display" : "Open Daily 8:00 AM-5:00 PM",
+            "payment_cashonly" : false,
+            "locality" : "Boca Raton",
+            "category_ids" : [
+               342
+            ],
+            "email" : "info@avitacoffee.com",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "latitude" : 26.421297,
+            "name" : "Coffee",
+            "cuisine" : [
+               "Coffee"
+            ],
+            "country" : "us",
+            "tel" : "(561) 995-0700",
+            "address_extended" : "Ste 1016",
+            "region" : "FL",
+            "website" : "http://www.avitacoffee.com/",
+            "postcode" : "33487"
+         },
+         {
+            "factual_id" : "21ede37e-addb-4eb1-aad3-b8f03876d2b6",
+            "open_24hrs" : false,
+            "address" : "14409 E Jefferson Ave",
+            "longitude" : -82.944047,
+            "hours" : {
+               "thursday" : [
+                  [
+                     "7:00",
+                     "17:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "7:00",
+                     "17:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "8:00",
+                     "21:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "8:00",
+                     "21:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "7:00",
+                     "17:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "7:00",
+                     "21:00"
+                  ]
+               ]
+            },
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Bakeries"
+               ]
+            ],
+            "category_ids" : [
+               342,
+               340
+            ],
+            "locality" : "Detroit",
+            "hours_display" : "Tue-Thu 7:00 AM-5:00 PM; Fri 7:00 AM-9:00 PM; Sat-Sun 8:00 AM-9:00 PM",
+            "cuisine" : [
+               "Coffee"
+            ],
+            "tel" : "(703) 717-1514",
+            "country" : "us",
+            "name" : "Coffee",
+            "latitude" : 42.37314,
+            "region" : "MI",
+            "website" : "http://www.guerrillafooddetroit.com/order/heart-healthy-valentines-soire?mc_cid=0aa505182a&mc_eid=fe5f4b3d9d",
+            "rating" : 4.5,
+            "postcode" : "48215"
+         },
+         {
+            "factual_id" : "eeac40db-cf41-441c-ae49-febf49f78fd0",
+            "address" : "601 Royal Palm Beach Blvd",
+            "longitude" : -80.230248,
+            "hours" : {
+               "monday" : [
+                  [
+                     "7:00",
+                     "22:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "7:00",
+                     "22:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "7:00",
+                     "22:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "7:00",
+                     "22:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "7:00",
+                     "22:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "9:00",
+                     "22:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "10:00",
+                     "18:00"
+                  ]
+               ]
+            },
+            "open_24hrs" : false,
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Ice Cream Parlors"
+               ]
+            ],
+            "category_ids" : [
+               344
+            ],
+            "locality" : "Royal Palm Beach",
+            "fax" : "(561) 791-9147",
+            "hours_display" : "Mon-Fri 7:00 AM-10:00 PM; Sat 9:00 AM-10:00 PM; Sun 10:00 AM-6:00 PM",
+            "tel" : "(561) 791-8466",
+            "country" : "us",
+            "cuisine" : [
+               "Coffee",
+               "Tea"
+            ],
+            "name" : "Coffee",
+            "latitude" : 26.682958,
+            "postcode" : "33411",
+            "region" : "FL"
+         },
+         {
+            "category_ids" : [
+               342,
+               347
+            ],
+            "locality" : "Ferndale",
+            "region" : "WA",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ]
+            ],
+            "postcode" : "98248",
+            "name" : "Coffee",
+            "latitude" : 48.891839,
+            "longitude" : -122.590406,
+            "address" : "2010 Grandview Rd",
+            "factual_id" : "5732b6bf-bb82-4a97-bb23-877b3a55227e",
+            "cuisine" : [
+               "Coffee",
+               "Cafe"
+            ],
+            "country" : "us",
+            "tel" : "(360) 306-8561"
+         },
+         {
+            "postcode" : "92832",
+            "website" : "http://coffeebean.com",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "region" : "CA",
+            "locality" : "Fullerton",
+            "category_ids" : [
+               342
+            ],
+            "tel" : "(714) 774-4160",
+            "country" : "us",
+            "factual_id" : "7e2dfbe4-12be-49b7-80a4-75033f16c21f",
+            "cuisine" : [
+               "Coffee",
+               "Cafe",
+               "Tea"
+            ],
+            "address" : "205 Orangefair Mall",
+            "longitude" : -117.921559,
+            "latitude" : 33.858479,
+            "name" : "Coffee"
+         },
+         {
+            "cuisine" : [
+               "Coffee"
+            ],
+            "factual_id" : "30310a1a-a3e9-4441-b88c-4cd92164ece5",
+            "country" : "us",
+            "tel" : "(912) 384-0761",
+            "name" : "Coffee",
+            "latitude" : 31.491394,
+            "address" : "1300 Madison Ave S",
+            "longitude" : -82.848131,
+            "region" : "GA",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "postcode" : "31533",
+            "locality" : "Douglas",
+            "category_ids" : [
+               342
+            ]
+         },
+         {
+            "region" : "WA",
+            "postcode" : "98003",
+            "name" : "Coffee",
+            "latitude" : 47.315882,
+            "cuisine" : [
+               "Coffee"
+            ],
+            "country" : "us",
+            "hours_display" : "Mon-Fri 6:00 AM-4:00 PM; Sat-Sun 6:00 AM-3:00 PM",
+            "locality" : "Federal Way",
+            "category_ids" : [
+               342,
+               347
+            ],
+            "neighborhood" : [
+               "Mirror Lake"
+            ],
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ]
+            ],
+            "open_24hrs" : false,
+            "hours" : {
+               "friday" : [
+                  [
+                     "6:00",
+                     "16:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "6:00",
+                     "16:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "6:00",
+                     "16:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "6:00",
+                     "16:00"
+                  ]
+               ],
+               "sunday" : [
+                  [
+                     "6:00",
+                     "15:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "6:00",
+                     "16:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "6:00",
+                     "15:00"
+                  ]
+               ]
+            },
+            "longitude" : -122.325538,
+            "address" : "700 S 320th St",
+            "factual_id" : "ee79d2c3-166b-42e2-bd10-7f9c1164dbc2"
+         },
+         {
+            "neighborhood" : [
+               "Graceland",
+               "North Side",
+               "Lakeview East"
+            ],
+            "locality" : "Chicago",
+            "category_ids" : [
+               342
+            ],
+            "postcode" : "60614",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "region" : "IL",
+            "longitude" : -87.644937,
+            "address" : "2722 N Clark St",
+            "name" : "Coffee",
+            "latitude" : 41.932063,
+            "country" : "us",
+            "cuisine" : [
+               "Coffee",
+               "Tea",
+               "Cafe"
+            ],
+            "factual_id" : "b5044e40-52b1-45ce-8505-a6a49b911083"
+         },
+         {
+            "address" : "939 Liberty Rd",
+            "longitude" : -83.255323,
+            "name" : "Coffee",
+            "latitude" : 37.921295,
+            "country" : "us",
+            "tel" : "(606) 743-2873",
+            "cuisine" : [
+               "Coffee"
+            ],
+            "factual_id" : "240d876a-8860-4f3f-b81a-141a493cfcec",
+            "locality" : "West Liberty",
+            "category_ids" : [
+               342
+            ],
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "postcode" : "41472",
+            "region" : "KY"
+         },
+         {
+            "locality" : "Holly Springs",
+            "category_ids" : [
+               342
+            ],
+            "region" : "NC",
+            "postcode" : "27540",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "latitude" : 35.678221,
+            "name" : "Coffee",
+            "longitude" : -78.831725,
+            "address" : "110 Osterville Dr",
+            "cuisine" : [
+               "Coffee",
+               "Cafe",
+               "Tea"
+            ],
+            "factual_id" : "e73d3427-bdb2-4f39-87af-cdb6e9c555bc",
+            "country" : "us",
+            "tel" : "(919) 303-4500"
+         },
+         {
+            "region" : "FL",
+            "postcode" : "33009",
+            "website" : "http://dunkindonuts.com/",
+            "wifi" : false,
+            "latitude" : 25.988222,
+            "name" : "Coffee",
+            "cuisine" : [
+               "Coffee",
+               "Bakery",
+               "Donuts"
+            ],
+            "tel" : "(954) 458-7966",
+            "country" : "us",
+            "payment_cashonly" : false,
+            "category_ids" : [
+               342,
+               347
+            ],
+            "locality" : "Hallandale Beach",
+            "price" : 1,
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ]
+            ],
+            "attire" : "casual",
+            "meal_deliver" : false,
+            "longitude" : -80.142699,
+            "address" : "201 N Federal Hwy",
+            "factual_id" : "a20af3cc-acb1-44eb-8ccf-f1162280447e"
+         },
+         {
+            "address" : "647 Main St",
+            "longitude" : -107.213028,
+            "name" : "Coffee",
+            "latitude" : 39.400711,
+            "country" : "us",
+            "cuisine" : [
+               "Coffee"
+            ],
+            "factual_id" : "3df141f3-23db-4ada-a80e-9b4b40ca9201",
+            "locality" : "Carbondale",
+            "category_ids" : [
+               342
+            ],
+            "postcode" : "81623",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "region" : "CO"
+         },
+         {
+            "neighborhood" : [
+               "Downtown"
+            ],
+            "locality" : "Syracuse",
+            "category_ids" : [
+               342
+            ],
+            "postcode" : "13202",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "region" : "NY",
+            "longitude" : -76.152324,
+            "address" : "302 S Salina St",
+            "name" : "Coffee",
+            "latitude" : 43.04855,
+            "tel" : "(315) 378-4828",
+            "country" : "us",
+            "factual_id" : "9c9a2963-396d-4764-8c5f-94a70136bd6e",
+            "cuisine" : [
+               "Coffee"
+            ]
+         },
+         {
+            "latitude" : 35.382169,
+            "name" : "Coffee",
+            "address" : "1806 N Jackson St",
+            "longitude" : -86.229654,
+            "factual_id" : "c97ae6fc-f543-418d-8aa3-23f42f076b78",
+            "cuisine" : [
+               "Coffee"
+            ],
+            "tel" : "(931) 455-6208",
+            "country" : "us",
+            "locality" : "Tullahoma",
+            "category_ids" : [
+               342
+            ],
+            "region" : "TN",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "postcode" : "37388"
+         },
+         {
+            "cuisine" : [
+               "Coffee",
+               "Tea"
+            ],
+            "factual_id" : "2d675472-82bd-4305-9492-1ca6c44c4d2e",
+            "tel" : "(503) 363-8582",
+            "country" : "us",
+            "name" : "Coffee",
+            "latitude" : 44.910111,
+            "longitude" : -123.044154,
+            "address" : "3170 Commercial St SE",
+            "region" : "OR",
+            "website" : "http://www.coffeeinmotion.net/",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "postcode" : "97302",
+            "locality" : "Salem",
+            "category_ids" : [
+               347,
+               342
+            ],
+            "neighborhood" : [
+               "West Salem"
+            ]
+         },
+         {
+            "name" : "Coffee",
+            "latitude" : 44.950582,
+            "longitude" : -123.051231,
+            "address" : "1110 Wallace Rd NW",
+            "cuisine" : [
+               "Coffee"
+            ],
+            "factual_id" : "92ea7e41-3f9d-468e-a99a-dc3430cf6f4c",
+            "tel" : "(503) 990-6571",
+            "country" : "us",
+            "locality" : "Salem",
+            "category_ids" : [
+               347
+            ],
+            "neighborhood" : [
+               "West Salem",
+               "Pinckney"
+            ],
+            "region" : "OR",
+            "website" : "http://www.coffeeinmotion.net/",
+            "postcode" : "97304",
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ]
+            ]
+         },
+         {
+            "category_ids" : [
+               361,
+               342
+            ],
+            "locality" : "Mokena",
+            "payment_cashonly" : false,
+            "hours_display" : "Mon-Thu 8:00 AM-7:00 PM; Fri-Sat 8:00 AM-10:00 PM; Sun 8:00 AM-7:00 PM",
+            "price" : 2,
+            "accessible_wheelchair" : true,
+            "meal_takeout" : true,
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants",
+                  "Mexican"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ]
+            ],
+            "meal_deliver" : false,
+            "open_24hrs" : false,
+            "attire" : "casual",
+            "address" : "19450 S La Grange Rd",
+            "meal_cater" : true,
+            "longitude" : -87.850643,
+            "hours" : {
+               "sunday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "saturday" : [
+                  [
+                     "8:00",
+                     "22:00"
+                  ]
+               ],
+               "wednesday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "thursday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "tuesday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ],
+               "friday" : [
+                  [
+                     "8:00",
+                     "22:00"
+                  ]
+               ],
+               "monday" : [
+                  [
+                     "8:00",
+                     "19:00"
+                  ]
+               ]
+            },
+            "factual_id" : "a9b9897c-fc3c-4c04-91c5-b750f9ab8457",
+            "parking_free" : true,
+            "parking" : true,
+            "region" : "IL",
+            "postcode" : "60448",
+            "website" : "http://lacafe.biz",
+            "rating" : 3.5,
+            "name" : "Los Angeles Cafe",
+            "latitude" : 41.536546,
+            "meal_lunch" : true,
+            "parking_lot" : true,
+            "cuisine" : [
+               "Cafe",
+               "Mexican",
+               "American",
+               "Latin American"
+            ],
+            "meal_dinner" : true,
+            "reservations" : true,
+            "country" : "us",
+            "tel" : "(708) 478-5110"
+         },
+         {
+            "neighborhood" : [
+               "Union Hill",
+               "Clinton"
+            ],
+            "price" : 1,
+            "payment_cashonly" : false,
+            "locality" : "Union City",
+            "category_ids" : [
+               342,
+               347
+            ],
+            "category_labels" : [
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Cafes, Coffee and Tea Houses"
+               ],
+               [
+                  "Social",
+                  "Food and Dining",
+                  "Restaurants"
+               ]
+            ],
+            "address" : "4300 Bergenline Ave",
+            "longitude" : -74.024467,
+            "meal_deliver" : false,
+            "attire" : "casual",
+            "factual_id" : "21258dc3-88c4-438b-8523-313e43f65525",
+            "parking" : true,
+            "postcode" : "07087",
+            "wifi" : false,
+            "region" : "NJ",
+            "latitude" : 40.778152,
+            "name" : "Los Angeles Cafe",
+            "tel" : "(201) 766-6288",
+            "country" : "us",
+            "cuisine" : [
+               "Cafe",
+               "Latin American",
+               "Mexican",
+               "Coffee"
+            ]
+         }
+      ]
+   },
+   "version" : 3
+}

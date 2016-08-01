@@ -1,0 +1,1242 @@
+{
+   "version" : 3,
+   "response" : {
+      "data" : [
+         {
+            "rating" : 5,
+            "check_in" : "14:00",
+            "country" : "us",
+            "review_count" : 2191,
+            "pool" : [
+               "true"
+            ],
+            "neighborhood" : [
+               "Historic Seaport"
+            ],
+            "type" : [
+               "B&B"
+            ],
+            "spa_services" : [
+               "false"
+            ],
+            "category_ids" : [
+               436,
+               433
+            ],
+            "postcode" : "33040",
+            "factual_id" : "17de4eeb-4d01-48c4-bf7f-e8ad0a68b83a",
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "name" : "Key West Harbor Inn",
+            "internet" : [
+               "true"
+            ],
+            "latitude" : 24.560389,
+            "complimentary_breakfast" : true,
+            "address" : "219 Elizabeth St",
+            "air_conditioning" : true,
+            "longitude" : -81.802466,
+            "locality" : "Key West",
+            "stars" : 2,
+            "fitness_facilities" : false,
+            "check_out" : "11:00"
+         },
+         {
+            "latitude" : 24.554281,
+            "parking_details" : [
+               "true"
+            ],
+            "room_service" : [
+               "true"
+            ],
+            "longitude" : -81.800277,
+            "locality" : "Key West",
+            "fitness_facilities" : false,
+            "laundry_service" : true,
+            "country" : "us",
+            "rating" : 5,
+            "pool" : [
+               "true"
+            ],
+            "bar" : true,
+            "concierge" : true,
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               433
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "room_count" : 17,
+            "pets" : [
+               "false"
+            ],
+            "complimentary_breakfast" : true,
+            "address" : "526 Angela St",
+            "air_conditioning" : true,
+            "stars" : 4,
+            "highest_price" : 205,
+            "check_out" : "11:00",
+            "check_in" : "15:00",
+            "lowest_price" : 175,
+            "review_count" : 4736,
+            "neighborhood" : [
+               "Old Town"
+            ],
+            "cable_tv" : true,
+            "type" : [
+               "B&B"
+            ],
+            "complimentary_newspapers" : true,
+            "spa_services" : [
+               "true",
+               "Jacuzzi"
+            ],
+            "region" : "FL",
+            "factual_id" : "01c50f39-06f8-4e4b-a12e-9fee41ceb05d",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : true,
+            "name" : "The Gardens Hotel"
+         },
+         {
+            "check_out" : "11:00",
+            "highest_price" : 312,
+            "stars" : 3,
+            "air_conditioning" : true,
+            "address" : "3420 N Roosevelt Blvd",
+            "complimentary_breakfast" : false,
+            "pets" : [
+               "false"
+            ],
+            "twentyfour_hour_front_desk" : true,
+            "room_count" : 106,
+            "name" : "The Inn at Key West",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : false,
+            "factual_id" : "acbe63cc-366d-40fd-85e3-7739ca9749ae",
+            "region" : "FL",
+            "spa_services" : [
+               "true",
+               "Jacuzzi"
+            ],
+            "complimentary_newspapers" : true,
+            "type" : [
+               "Business"
+            ],
+            "cable_tv" : true,
+            "accessibility" : [
+               "accessible bathroom",
+               "equipment for the deaf"
+            ],
+            "review_count" : 9589,
+            "lowest_price" : 329,
+            "check_in" : "15:00",
+            "cribs" : "true",
+            "business_center" : true,
+            "laundry_service" : true,
+            "fitness_facilities" : true,
+            "locality" : "Key West",
+            "longitude" : -81.762116,
+            "room_service" : [
+               "true"
+            ],
+            "parking_details" : [
+               "true"
+            ],
+            "roll_out_beds" : [
+               "true"
+            ],
+            "latitude" : 24.571344,
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "postcode" : "33040",
+            "category_ids" : [
+               436
+            ],
+            "concierge" : true,
+            "bar" : true,
+            "meeting_rooms" : true,
+            "pool" : [
+               "true",
+               "outdoor"
+            ],
+            "country" : "us",
+            "rating" : 4
+         },
+         {
+            "bar" : true,
+            "pool" : [
+               "true"
+            ],
+            "country" : "us",
+            "rating" : 4,
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Resorts"
+               ]
+            ],
+            "category_ids" : [
+               436,
+               433,
+               438
+            ],
+            "postcode" : "33040",
+            "concierge" : true,
+            "longitude" : -81.800214,
+            "parking_details" : [
+               "true"
+            ],
+            "latitude" : 24.552764,
+            "fitness_facilities" : false,
+            "locality" : "Key West",
+            "type" : [
+               "B&B"
+            ],
+            "cable_tv" : true,
+            "neighborhood" : [
+               "Upper Duval",
+               "Old Town"
+            ],
+            "accessibility" : [
+               "wheelchair accessible"
+            ],
+            "review_count" : 7717,
+            "lowest_price" : 237,
+            "check_in" : "15:00",
+            "name" : "Duval House",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : true,
+            "factual_id" : "c559c2f3-a143-467a-8d2d-d0428a382d49",
+            "region" : "FL",
+            "spa_services" : [
+               "false"
+            ],
+            "air_conditioning" : true,
+            "address" : "815 Duval St",
+            "complimentary_breakfast" : true,
+            "check_out" : "12:00",
+            "highest_price" : 317,
+            "stars" : 3
+         },
+         {
+            "bar" : true,
+            "express_check_out" : true,
+            "meeting_rooms" : true,
+            "pool" : [
+               "true"
+            ],
+            "country" : "us",
+            "rating" : 4,
+            "banquet_facilities" : true,
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "postcode" : "33040",
+            "category_ids" : [
+               436
+            ],
+            "concierge" : true,
+            "longitude" : -81.772242,
+            "room_service" : [
+               "true"
+            ],
+            "parking_details" : [
+               "true"
+            ],
+            "latitude" : 24.552642,
+            "cribs" : "true",
+            "laundry_service" : true,
+            "business_center" : true,
+            "express_check_in" : true,
+            "fitness_facilities" : true,
+            "locality" : "Key West",
+            "type" : [
+               "Golf"
+            ],
+            "cable_tv" : true,
+            "neighborhood" : [
+               "Midtown"
+            ],
+            "accessibility" : [
+               "wheelchair accessible"
+            ],
+            "review_count" : 9542,
+            "lowest_price" : 179,
+            "check_in" : "16:00",
+            "name" : "Sheraton Suites Key West",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : false,
+            "factual_id" : "008a3436-2a8d-4cb7-af72-c84ef74164e7",
+            "region" : "FL",
+            "spa_services" : [
+               "true"
+            ],
+            "complimentary_newspapers" : true,
+            "air_conditioning" : true,
+            "address" : "2001 S Roosevelt Blvd",
+            "complimentary_breakfast" : false,
+            "pets" : [
+               "true"
+            ],
+            "event_catering" : true,
+            "twentyfour_hour_front_desk" : true,
+            "room_count" : 184,
+            "check_out" : "11:00",
+            "highest_price" : 269,
+            "stars" : 3
+         },
+         {
+            "type" : [
+               "Resort"
+            ],
+            "cable_tv" : true,
+            "neighborhood" : [
+               "Historic Seaport"
+            ],
+            "accessibility" : [
+               "wheelchair accessible"
+            ],
+            "review_count" : 7408,
+            "lowest_price" : 319,
+            "check_in" : "16:00",
+            "name" : "Pier House Resort and Caribbean Spa",
+            "smoking" : false,
+            "internet" : [
+               "true"
+            ],
+            "factual_id" : "e8f67f2c-3a4f-410c-a48d-dc0ec85c21fb",
+            "region" : "FL",
+            "spa_services" : [
+               "true",
+               "Massage"
+            ],
+            "complimentary_newspapers" : true,
+            "air_conditioning" : true,
+            "address" : "1 Duval St",
+            "complimentary_breakfast" : false,
+            "pets" : [
+               "false"
+            ],
+            "twentyfour_hour_front_desk" : true,
+            "event_catering" : true,
+            "room_count" : 142,
+            "check_out" : "11:00",
+            "highest_price" : 339,
+            "stars" : 4,
+            "bar" : true,
+            "meeting_rooms" : true,
+            "pool" : [
+               "true"
+            ],
+            "country" : "us",
+            "rating" : 4.5,
+            "banquet_facilities" : true,
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Resorts"
+               ]
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               438
+            ],
+            "concierge" : true,
+            "longitude" : -81.806282,
+            "room_service" : [
+               "true"
+            ],
+            "parking_details" : [
+               "true"
+            ],
+            "roll_out_beds" : [
+               "true"
+            ],
+            "latitude" : 24.560876,
+            "business_center" : true,
+            "laundry_service" : true,
+            "fitness_facilities" : true,
+            "locality" : "Key West"
+         },
+         {
+            "rating" : 4.5,
+            "country" : "us",
+            "banquet_facilities" : true,
+            "pool" : [
+               "true"
+            ],
+            "meeting_rooms" : true,
+            "bar" : true,
+            "concierge" : true,
+            "postcode" : "33040",
+            "category_ids" : [
+               436
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "latitude" : 24.571211,
+            "parking_details" : [
+               "true"
+            ],
+            "room_service" : [
+               "true"
+            ],
+            "longitude" : -81.752633,
+            "locality" : "Key West",
+            "fitness_facilities" : true,
+            "laundry_service" : true,
+            "business_center" : true,
+            "cribs" : "true",
+            "check_in" : "16:00",
+            "lowest_price" : 179,
+            "review_count" : 7366,
+            "accessibility" : [
+               "accessible bathroom"
+            ],
+            "cable_tv" : true,
+            "type" : [
+               "Conference Center",
+               "Resort"
+            ],
+            "complimentary_newspapers" : true,
+            "spa_services" : [
+               "true"
+            ],
+            "region" : "FL",
+            "factual_id" : "35c124d9-c35d-40b3-8e1f-5e4b1b3fa232",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : false,
+            "name" : "Key West Marriott Beachside Hotel",
+            "room_count" : 215,
+            "twentyfour_hour_front_desk" : true,
+            "event_catering" : true,
+            "pets" : [
+               "false"
+            ],
+            "complimentary_breakfast" : false,
+            "address" : "3841 N Roosevelt Blvd",
+            "air_conditioning" : true,
+            "stars" : 4,
+            "highest_price" : 531,
+            "check_out" : "11:00"
+         },
+         {
+            "check_out" : "11:00",
+            "locality" : "Key West",
+            "stars" : 3,
+            "address" : "611 Truman Ave",
+            "longitude" : -81.797627,
+            "air_conditioning" : true,
+            "room_count" : 35,
+            "latitude" : 24.552484,
+            "parking_details" : [
+               "true"
+            ],
+            "twentyfour_hour_front_desk" : true,
+            "pets" : [
+               "false"
+            ],
+            "complimentary_breakfast" : true,
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "region" : "FL",
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "factual_id" : "925e44f9-18dc-490c-a639-6bc077ffd580",
+            "smoking" : false,
+            "internet" : [
+               "true",
+               "wireless"
+            ],
+            "name" : "Truman Hotel",
+            "spa_services" : [
+               "true"
+            ],
+            "category_ids" : [
+               436
+            ],
+            "postcode" : "33040",
+            "neighborhood" : [
+               "Old Town"
+            ],
+            "type" : [
+               "B&B"
+            ],
+            "country" : "us",
+            "rating" : 4.5,
+            "check_in" : "14:00",
+            "lowest_price" : 168,
+            "review_count" : 4115,
+            "pool" : [
+               "true"
+            ]
+         },
+         {
+            "name" : "Fairfield Inn & Suites Key West at The Keys Collection",
+            "internet" : [
+               "true"
+            ],
+            "factual_id" : "6212e53e-b0e6-41a9-a91e-817ef42876bb",
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "category_ids" : [
+               436
+            ],
+            "postcode" : "33040",
+            "accessibility" : [
+               "accessible bathroom",
+               "equipment for the deaf"
+            ],
+            "pool" : [
+               "true"
+            ],
+            "review_count" : 895,
+            "rating" : 3,
+            "country" : "us",
+            "check_out" : "11:00",
+            "business_center" : true,
+            "fitness_facilities" : true,
+            "stars" : 3,
+            "locality" : "Key West",
+            "air_conditioning" : true,
+            "longitude" : -81.752385,
+            "address" : "3852 N Roosevelt Blvd",
+            "complimentary_breakfast" : true,
+            "parking_details" : [
+               "free",
+               "true"
+            ],
+            "room_count" : 133,
+            "latitude" : 24.569105
+         },
+         {
+            "cable_tv" : true,
+            "neighborhood" : [
+               "Upper Duval"
+            ],
+            "type" : [
+               "Beach"
+            ],
+            "lowest_price" : 244,
+            "check_in" : "16:00",
+            "accessibility" : [
+               "accessible bathroom",
+               "equipment for the deaf"
+            ],
+            "review_count" : 16949,
+            "factual_id" : "0f2b65ef-a47b-4d92-bc23-a62758ff6633",
+            "region" : "FL",
+            "name" : "Southernmost on the Beach",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : false,
+            "spa_services" : [
+               "true",
+               "Massage"
+            ],
+            "complimentary_newspapers" : true,
+            "address" : "508 South St",
+            "air_conditioning" : true,
+            "room_count" : 124,
+            "pets" : [
+               "false"
+            ],
+            "complimentary_breakfast" : true,
+            "event_catering" : true,
+            "twentyfour_hour_front_desk" : true,
+            "highest_price" : 448,
+            "check_out" : "11:00",
+            "stars" : 3,
+            "bar" : true,
+            "meeting_rooms" : true,
+            "country" : "us",
+            "rating" : 4.5,
+            "banquet_facilities" : true,
+            "pool" : [
+               "true"
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "concierge" : true,
+            "postcode" : "33040",
+            "category_ids" : [
+               436
+            ],
+            "longitude" : -81.795256,
+            "parking_details" : [
+               "true"
+            ],
+            "latitude" : 24.547245,
+            "cribs" : "true",
+            "laundry_service" : true,
+            "business_center" : true,
+            "locality" : "Key West",
+            "fitness_facilities" : true
+         },
+         {
+            "stars" : 2,
+            "locality" : "Key West",
+            "latitude" : 24.555406,
+            "complimentary_breakfast" : true,
+            "address" : "410 Fleming St",
+            "longitude" : -81.803588,
+            "air_conditioning" : true,
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               433
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "region" : "FL",
+            "factual_id" : "ce7b671c-491f-43d5-8ae2-ed66bbf24b1a",
+            "name" : "Marrero's Guest Mansion",
+            "rating" : 4.5,
+            "country" : "us",
+            "pool" : [
+               "true"
+            ],
+            "review_count" : 964,
+            "neighborhood" : [
+               "Historic Seaport",
+               "Old Town"
+            ],
+            "type" : [
+               "B&B"
+            ]
+         },
+         {
+            "bar" : true,
+            "meeting_rooms" : true,
+            "pool" : [
+               "true"
+            ],
+            "rating" : 4.5,
+            "banquet_facilities" : true,
+            "country" : "us",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Resorts"
+               ]
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               438
+            ],
+            "concierge" : true,
+            "longitude" : -81.773572,
+            "room_service" : [
+               "true"
+            ],
+            "parking_details" : [
+               "true"
+            ],
+            "latitude" : 24.565995,
+            "laundry_service" : true,
+            "business_center" : true,
+            "fitness_facilities" : true,
+            "locality" : "Key West",
+            "type" : [
+               "Resort"
+            ],
+            "cable_tv" : true,
+            "accessibility" : [
+               "accessible bathroom"
+            ],
+            "review_count" : 12236,
+            "lowest_price" : 149,
+            "check_in" : "16:00",
+            "name" : "Parrot Key Hotel & Resort",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : false,
+            "factual_id" : "f38c90ca-9127-455d-b04c-b06c53999d99",
+            "region" : "FL",
+            "spa_services" : [
+               "true",
+               "massage"
+            ],
+            "complimentary_newspapers" : true,
+            "air_conditioning" : true,
+            "address" : "2801 N Roosevelt Blvd",
+            "pets" : [
+               "false"
+            ],
+            "complimentary_breakfast" : false,
+            "event_catering" : false,
+            "twentyfour_hour_front_desk" : true,
+            "room_count" : 146,
+            "check_out" : "11:00",
+            "highest_price" : 430,
+            "stars" : 4
+         },
+         {
+            "longitude" : -81.800921,
+            "latitude" : 24.557143,
+            "parking_details" : [
+               "true"
+            ],
+            "business_center" : true,
+            "laundry_service" : true,
+            "locality" : "Key West",
+            "fitness_facilities" : true,
+            "bar" : true,
+            "country" : "us",
+            "rating" : 5,
+            "pool" : [
+               "true",
+               "outdoor"
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Resorts"
+               ]
+            ],
+            "concierge" : true,
+            "category_ids" : [
+               436,
+               433,
+               438
+            ],
+            "postcode" : "33040",
+            "address" : "622 Fleming St",
+            "air_conditioning" : true,
+            "room_count" : 20,
+            "pets" : [
+               "true"
+            ],
+            "complimentary_breakfast" : true,
+            "highest_price" : 516,
+            "check_out" : "11:00",
+            "stars" : 3,
+            "neighborhood" : [
+               "Old Town",
+               "Historic Seaport"
+            ],
+            "cable_tv" : true,
+            "type" : [
+               "B&B"
+            ],
+            "check_in" : "15:00",
+            "lowest_price" : 229,
+            "review_count" : 6445,
+            "accessibility" : [
+               "accessible bathroom"
+            ],
+            "region" : "FL",
+            "factual_id" : "77ee3fb7-c79f-4705-b9ea-749a292ef3e1",
+            "internet" : [
+               "true"
+            ],
+            "smoking" : false,
+            "name" : "Ambrosia Key West",
+            "spa_services" : [
+               "true",
+               "Whirlpool"
+            ]
+         },
+         {
+            "highest_price" : 199,
+            "stars" : 3,
+            "locality" : "Key West",
+            "longitude" : -81.796397,
+            "air_conditioning" : true,
+            "address" : "1016 Fleming St",
+            "complimentary_breakfast" : true,
+            "latitude" : 24.559859,
+            "parking_details" : [
+               "true"
+            ],
+            "name" : "Nassau House",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "region" : "FL",
+            "factual_id" : "2849f24e-452e-4818-97df-72c9ddba44bf",
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               433
+            ],
+            "type" : [
+               "B&B"
+            ],
+            "neighborhood" : [
+               "The Meadows"
+            ],
+            "review_count" : 950,
+            "rating" : 4.5,
+            "country" : "us",
+            "lowest_price" : 99
+         },
+         {
+            "air_conditioning" : true,
+            "longitude" : -81.795838,
+            "address" : "729 Truman Ave",
+            "complimentary_breakfast" : true,
+            "parking_details" : [
+               "true"
+            ],
+            "latitude" : 24.553478,
+            "check_out" : "11:00",
+            "highest_price" : 298,
+            "fitness_facilities" : false,
+            "locality" : "Key West",
+            "type" : [
+               "B&B"
+            ],
+            "neighborhood" : [
+               "Old Town"
+            ],
+            "review_count" : 1503,
+            "pool" : [
+               "true"
+            ],
+            "lowest_price" : 148,
+            "rating" : 5,
+            "country" : "us",
+            "check_in" : "14:00",
+            "name" : "The Mermaid & The Alligator",
+            "internet" : [
+               "true"
+            ],
+            "factual_id" : "3449bedd-638e-49c8-af86-4a282b72178e",
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Resorts"
+               ]
+            ],
+            "category_ids" : [
+               436,
+               433,
+               438
+            ],
+            "postcode" : "33040",
+            "spa_services" : [
+               "false"
+            ]
+         },
+         {
+            "factual_id" : "1223a2a3-32d2-47b7-bc2d-423e2793f0e2",
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "name" : "Coco Plum Inn",
+            "spa_services" : [
+               "false"
+            ],
+            "category_ids" : [
+               433,
+               436
+            ],
+            "postcode" : "33040",
+            "neighborhood" : [
+               "Old Town",
+               "Upper Duval"
+            ],
+            "type" : [
+               "B&B"
+            ],
+            "bar" : true,
+            "lowest_price" : 271,
+            "country" : "us",
+            "rating" : 4.5,
+            "pool" : [
+               "true"
+            ],
+            "review_count" : 1018,
+            "highest_price" : 365,
+            "locality" : "Key West",
+            "fitness_facilities" : false,
+            "address" : "615 Whitehead St",
+            "air_conditioning" : true,
+            "longitude" : -81.802685,
+            "latitude" : 24.553828,
+            "complimentary_breakfast" : true
+         },
+         {
+            "pool" : [
+               "true"
+            ],
+            "review_count" : 1328,
+            "rating" : 4.5,
+            "country" : "us",
+            "type" : [
+               "B&B"
+            ],
+            "neighborhood" : [
+               "Old Town"
+            ],
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               433
+            ],
+            "name" : "Angelina Guest House",
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "factual_id" : "289f9fef-b17b-4fc5-8f89-b225f1fbe862",
+            "complimentary_breakfast" : true,
+            "latitude" : 24.55247,
+            "parking_details" : [
+               "true"
+            ],
+            "longitude" : -81.80329,
+            "address" : "302 Angela St",
+            "locality" : "Key West",
+            "stars" : 4
+         },
+         {
+            "locality" : "Key West",
+            "fitness_facilities" : false,
+            "latitude" : 24.55423,
+            "parking_details" : [
+               "true"
+            ],
+            "complimentary_breakfast" : true,
+            "address" : "511 Angela St",
+            "longitude" : -81.800945,
+            "air_conditioning" : true,
+            "spa_services" : [
+               "false"
+            ],
+            "category_ids" : [
+               436
+            ],
+            "postcode" : "33040",
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ]
+            ],
+            "factual_id" : "da82a2ec-9110-4223-94b2-a6e962eb39d2",
+            "internet" : [
+               "true"
+            ],
+            "name" : "Duval Inn",
+            "country" : "us",
+            "rating" : 4.5,
+            "pool" : [
+               "true"
+            ],
+            "review_count" : 1394,
+            "neighborhood" : [
+               "Old Town"
+            ],
+            "type" : [
+               "B&B"
+            ]
+         },
+         {
+            "neighborhood" : [
+               "Old Town"
+            ],
+            "bar" : true,
+            "rating" : 5,
+            "country" : "us",
+            "check_in" : "15:00",
+            "lowest_price" : 108,
+            "pool" : [
+               "true"
+            ],
+            "review_count" : 862,
+            "accessibility" : [
+               "wheelchair accessible"
+            ],
+            "region" : "FL",
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "factual_id" : "09fd8272-d781-40ca-bcb1-4e5130e7e363",
+            "internet" : [
+               "true"
+            ],
+            "name" : "The Conch House Heritage Inn",
+            "spa_services" : [
+               "false"
+            ],
+            "category_ids" : [
+               436,
+               433
+            ],
+            "postcode" : "33040",
+            "address" : "625 Truman Ave",
+            "longitude" : -81.797135,
+            "air_conditioning" : true,
+            "latitude" : 24.552601,
+            "parking_details" : [
+               "true"
+            ],
+            "complimentary_breakfast" : true,
+            "highest_price" : 248,
+            "check_out" : "11:00",
+            "locality" : "Key West",
+            "fitness_facilities" : false
+         },
+         {
+            "room_service" : [
+               "true"
+            ],
+            "longitude" : -81.798625,
+            "parking_details" : [
+               "true"
+            ],
+            "latitude" : 24.549543,
+            "locality" : "Key West",
+            "fitness_facilities" : false,
+            "bar" : true,
+            "country" : "us",
+            "rating" : 4,
+            "pool" : [
+               "true"
+            ],
+            "category_labels" : [
+               [
+                  "Travel",
+                  "Lodging",
+                  "Hotels and Motels"
+               ],
+               [
+                  "Travel",
+                  "Lodging",
+                  "Bed and Breakfasts"
+               ]
+            ],
+            "non_smoking_rooms" : [
+               "true"
+            ],
+            "concierge" : true,
+            "postcode" : "33040",
+            "category_ids" : [
+               436,
+               433
+            ],
+            "address" : "419 Amelia St",
+            "air_conditioning" : true,
+            "room_count" : 35,
+            "complimentary_breakfast" : true,
+            "pets" : [
+               "true"
+            ],
+            "event_catering" : false,
+            "highest_price" : 228,
+            "check_out" : "11:00",
+            "stars" : 1,
+            "neighborhood" : [
+               "Upper Duval",
+               "Old Town"
+            ],
+            "type" : [
+               "B&B"
+            ],
+            "lowest_price" : 136,
+            "check_in" : "14:00",
+            "review_count" : 1887,
+            "factual_id" : "1f4ec2a2-b191-443a-b867-8d4eb2e7bbb6",
+            "region" : "FL",
+            "name" : "Douglas House",
+            "smoking" : false,
+            "internet" : [
+               "true"
+            ],
+            "spa_services" : [
+               "false"
+            ]
+         }
+      ],
+      "included_rows" : 20
+   },
+   "status" : "ok"
+}

@@ -1,0 +1,147 @@
+{% load staticfiles %} 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Search Hotels on PEX+</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="hotels" />
+        <meta property="og:url" content="http://pexportal.com//search_hotel" />
+        <meta property="og:title" content="{{form.place.value}} for ${{filters.0}}/night"/>
+        <meta property="og:description" content="Need a place to stay in {{ form.place.value }}? I found a great deal for a hotel there on PEX+." />
+        <meta property="og:site_name" content="pexportal.com" />
+        <meta property="fb:app_id" content="423944854478305"/>
+        <meta property="og:image" content="{% static 'flightsearch/img/logoMain.png' %}" />
+
+        <link rel="apple-touch-icon" href="http://pexportal.com/static/flightsearch/apple-touch-icon.png">
+        <link rel="shortcut icon" type="image/ico" href="http://pexportal.com/static/flightsearch/favicon.ico">
+
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/static/css/jquery-ui.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="stylesheet" href="/static/css/hotel_api.css">
+
+        <script src="/static/js/jquery-2.1.4.min.js"></script>
+        <script src="/static/js/jquery-ui.js"></script>
+        <script src="/static/js/bootstrap.js"></script>        
+        <script src="/static/js/hotel_api.js"></script>        
+    </head>
+
+    <body itemscope="" itemtype="http://schema.org/WebPage">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif] http://www.pexportal.com-->
+
+<!-- NAVBAR SECTION/-->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid bk-white">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pexMainNavbar">
+      <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+
+            <a class="navbar-brand brandmedia custome-brand" href="http://pexportal.com/index"><img src="/static/img/logoMain.png" alt="" class="img-responsive"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="pexMainNavbar">
+                    
+            <ul class="nav navbar-nav mainNav mvt10px">
+              <li class=""><a href="/flights">Flights</a></li>              
+              <li class=""><a href="/hotels">Hotels</a></li> 
+              <!--<li class=""><a href="#">Cars</a></li>
+              <li class=""><a href="#">Cruises</a></li> 
+              <li class=""><a href="#">Restaurants</a></li>
+      -->
+            </ul> 
+            <ul class="nav navbar-nav navbar-right right-nav-link responsive-edit mvt10px">
+              
+              
+                <li class="signuplogin" id="signupbtn"><a href="#" data-toggle="modal" data-target="#login-modal"> SIGN UP</a></li>
+                <li class="signuplogin" id="loginbtn"><a href="#" data-toggle="modal" data-target="#login-modal"> LOGIN</a></li>
+                
+                <li class=""><a href="http://pexportal.com/staticPage?action=Help" class="help"><!-- <span class="glyphicon glyphicon-info-sign"></span> --> HELP</a></li>
+           
+            </ul>  
+            <div class="col-xs-12 text-left for-mobile-view">
+                <ul class="nav navbar-nav navbar-footerimg social-icon">
+                    <li class=""><a href="http://www.twitter.com/PEXPlus"><img src="/static/img/twtr.png"></a></li>
+                    <li class=""><a href="http://www.facebook.com/PEXPlus"><img src="/static/img/fb.png"></a></li>
+                    <li class=""><a href="http://www.instagram.com/PEXPlus"><img src="/static/img/instgm.png"></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {% block content %}
+      {% endblock %}
+
+        <footer class="container-fluid nopadding container-footer">
+        <div class="container footer-custome">
+              <nav class="navbar navbar-footer">
+                <div class="col-xs-12 nopadding">
+                  <div class="col-xs-12 nopadding" id="">
+                  <div class="col-xs-12 nopadding">
+                    <div class="col-xs-12 nopadding text-center">
+                      <div class="col-xs-12 nopadding">
+                        <ul class="nav navbar-nav navbar-footerfont">
+                          <li><a href="http://pexportal.com/staticPage?action=About">About</a></li>
+                          <li><a href="http://pexportal.com/staticPage?action=how_it_work">How It Works</a></li>
+                          <li><a href="http://pexportal.com/staticPage?action=contact_us">Contact Us</a></li>
+                          <li><a href="#">Privacy</a></li>
+                        </ul>
+                      </div>
+                      </div>
+                    </div>
+             <div class="col-xs-12 text-center for-desktop-view" style="">
+                    <ul class="nav navbar-nav navbar-footerimg social-icon">
+                     <li class=""><a href="http://www.twitter.com/PEXPlus"><img src="/static/img/twtr.png"></a></li>
+          <li class=""><a href="http://www.facebook.com/PEXPlus"><img src="/static/img/fb.png"></a></li>
+          <li class=""><a href="http://www.instagram.com/PEXPlus"><img src="/static/img/instgm.png"></a></li>
+                    </ul>
+                </div>
+                  </div>
+                 </div>
+                </nav>
+                <div class="footertext">
+                  <div class="col-xs-12 nopadding">
+                    <div class="col-xs-12 nopadding">
+                      <div class="col-xs-12 nopadding">
+                        <div class="footertext-copyright">
+                          <div class="text-center hidden-sm hidden-xs hidden-xxs">
+                            <p class="">Copyright 2015-2016 PEX+. All Rights Reserved. </p>
+                            <p class="alignright pspacerv15t textalignright spacerh15r">Search
+ cheap rewards flights with PEX+ Awards Search. Find the cheapest 
+airline rewards tickets for all top airlines around the world and the 
+top international flight routes. PEX+ Awards Search searches hundreds of
+ travel sites to help you find and book the rewards flight that suits 
+you best.</p>
+                            <br>
+                          </div>
+                          <div class="hidden-lg hidden-md">
+                            <p class="">Copyright 2015-2016 PEX+. All Rights Reserved.</p>
+                            <p class="alignright pspacerv15t textalignright spacerh15r">Search
+ cheap rewards flights with PEX+ Awards Search. Find the cheapest 
+airline rewards tickets for all top airlines around the world and the 
+top international flight routes. PEX+ Awards Search searches hundreds of
+ travel sites to help you find and book the rewards flight that suits 
+you best.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </footer> 
+</body>
+</html>

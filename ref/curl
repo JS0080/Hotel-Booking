@@ -1,0 +1,2 @@
+curl -H "Accept: application/json" -X GET http://wandr.me/scripts/hustle/insideflyer.ashx?term=Anshan,%20China|json_pp
+curl -H "Accept: application/json" -X GET http://wandr.me/scripts/hustle/insideflyer.ashx?term=syd|json_pp
